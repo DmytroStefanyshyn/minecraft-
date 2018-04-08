@@ -28,7 +28,7 @@ body{
   background-color: #37a14c;
   color: #fff;
   font-size: 16px;
-  padding: 15px 160px 15px 145px;
+  padding: 9px 160px 9px 145px;
   display: inline-block;
 }
 .asset_icon {
@@ -41,8 +41,7 @@ body{
   display: inline-block;
   width: 50%;
   align-items: center;
-  height: 34px;
-  padding-top: 11px;
+  height: 30px;
 }
 .icon {
   text-align: right;
@@ -53,7 +52,51 @@ body{
 }
 .contacts {
   padding: 15px 160px 15px 145px;
+  vertical-align: middle;
 }
-.icon-minecraft {
+.contacts-contein {
   display: inline-block;
+}
+.phone-name {
+  size: 16px;
+  color: #0f680e;
+}
+.phone-number a {
+  size: 16px;
+  color: #0f680e;
+}
+.skype-name {
+  color: #1200ff;
+  font-family: Italic;
+}
+.server {
+  background-color: #fec90c;
+  color: #fff;
+  size: 16px;
+  padding: 11px;
+  width: 145px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  box-shadow: inset 0 -3px 0 0 #293224;
+}
+.menu {
+  width: 100%;
+  min-height: 45px;
+  background: linear-gradient(#51c066, #309444); 
+  padding: 0 160px 0 145px;
+}
+ul.menu a{
+  color: #343434;
+  text-decoration: none;
+}
+ul.menu li{
+  list-style: none;
+  display: inline-block;
+  box-shadow: 2px 0 0 0 #57e974;
+  box-shadow: inset 2px 0 0 0 #247634;
+}
+ul.menu > li > a{
+  display: block;
+  padding: 13px;
+  color: #fff;
 }
