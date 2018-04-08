@@ -107,3 +107,39 @@ ul.menu > li > a{
   padding: 13px;
   color: #fff;
 }
+.conteiner {
+  padding: 25px 160px 0 145px;
+}
+.left-bar {
+  width: 25%;
+  float: left;
+  padding-right: 20px;
+}
+ul.options li {
+  list-style: none;
+  padding-top: 10px;
+}
+.options {
+  padding: 15px 15px 15px 0;
+  border-bottom: 2px solid #e7e7e7;
+  font-size: 20px;
+}
+.option-conteiner {
+  font-size: 16px;
+  color: #ff0000;
+  padding-top: 15px;
+  padding-left: 20px;
+}
+.right-bar {
+  width: 75%;
+  float: right;
+}
+.conteiner-text {
+  font-size: 24px;
+  font-weight: bold;
+  padding-bottom: 15px;
+}
+.game-description {
+  font-size: 14px;
+  padding-top: 15px;
+}
