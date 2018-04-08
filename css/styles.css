@@ -92,8 +92,15 @@ ul.menu a{
 ul.menu li{
   list-style: none;
   display: inline-block;
-  box-shadow: 2px 0 0 0 #57e974;
-  box-shadow: inset 2px 0 0 0 #247634;
+  box-shadow: 2px 0 0 0 #247634;
+  border-left: 2px solid #57e974;
+  width: 20%;
+  margin-left: -.36em;
+  text-align: center;
+  height: 100%;
+}
+ul.menu li:hover {
+  background: linear-gradient(#46da62, #2da045);
 }
 ul.menu > li > a{
   display: block;
