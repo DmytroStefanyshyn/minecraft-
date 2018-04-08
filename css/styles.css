@@ -121,7 +121,7 @@ ul.options li {
 }
 .options {
   padding: 15px 15px 15px 0;
-  border-bottom: 2px solid #e7e7e7;
+  border-bottom: 1.5px solid #e7e7e7;
   font-size: 20px;
 }
 .option-conteiner {
@@ -142,4 +142,13 @@ ul.options li {
 .game-description {
   font-size: 14px;
   padding-top: 15px;
+  padding-bottom: 38px;
+  border-bottom: 1px solid #e7e7e7;
+}
+.new-options {
+  display: inline-block;
+  padding-top: 60px;
+}
+.new-options1 {
+  width: 230px;
 }
