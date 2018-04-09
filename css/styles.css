@@ -209,3 +209,17 @@ ul.options li {
   font-size: 14px;
   vertical-align: middle;
 }
+@media (max-width: 1333px){
+  .contacts {
+    padding: 15px 0 15px 0;
+  }
+  .menu {
+    padding: 0 0;
+  }
+  .conteiner {
+    padding: 25px 0 0 0;
+  }
+  .yellow-line {
+    padding: 0 0; 
+  }
+}
