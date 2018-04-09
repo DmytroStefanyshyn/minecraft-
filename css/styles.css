@@ -3,9 +3,7 @@
   padding:0;
   box-sizing:border-box;
 }
-img{
-  max-width: 100%;
-}
+
 html{
   height: 100%;
 }
@@ -58,11 +56,11 @@ body{
   display: inline-block;
 }
 .phone-name {
-  size: 16px;
+  font-size: 16px;
   color: #0f680e;
 }
 .phone-number a {
-  size: 16px;
+  font-size: 16px;
   color: #0f680e;
 }
 .skype-name {
@@ -72,7 +70,7 @@ body{
 .server {
   background-color: #fec90c;
   color: #fff;
-  size: 16px;
+  font-size: 16px;
   padding: 11px;
   width: 145px;
   border-radius: 5px;
@@ -149,6 +147,21 @@ ul.options li {
   display: inline-block;
   padding-top: 60px;
 }
-.new-options1 {
-  width: 230px;
+.new-options-conteiner {
+  display: inline-block;
+  padding-right: 18px;
+}
+.new-options-bg {
+  background: linear-gradient(#329545, #45bc5c);
+  height: 90px;
+  padding: 13px 30px 12px 6px;
+  font-size: 14px;
+  width: 232px;
+}
+.new-options-data {
+  padding-bottom: 2px;
+  font-weight: bold;
+}
+.new-options-text {
+  color: #fff;
 }
