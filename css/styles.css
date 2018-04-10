@@ -109,6 +109,7 @@ ul.menu > li > a{
 }
 .left-bar {
   width: 25%;
+  min-width: 166px;
   float: left;
   padding-right: 20px;
 }
